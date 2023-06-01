@@ -9,7 +9,7 @@
  * Return: pointer to the lowest common ancestor, or NULL if not found
  */
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
-		const binary_tree_t *second);
+		const binary_tree_t *second)
 {
 	const binary_tree_t *ancestor;
 
@@ -37,7 +37,7 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
  * Return: 1 if @node is an ancestor of @target, 0 otherwise
  */
 int binary_tree_is_ancestor(const binary_tree_t *node,
-		const binary_tree_t *target);
+		const binary_tree_t *target)
 {
 	if (node == NULL)
 		return (0);
