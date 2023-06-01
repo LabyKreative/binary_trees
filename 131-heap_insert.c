@@ -1,9 +1,5 @@
 #include "binary_trees.h"
 
-size_t bts(const binary_tree_t *tree);
-heap_t *heap_nf(heap_t *root, size_t number);
-heap_t *heap_r(heap_t *new, heap_t *parent);
-
 /**
  * heap_insert - a function that inserts heap
  *
