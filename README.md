@@ -14,7 +14,7 @@ A ***binary tree*** is a tree data structure composed of nodes, each of which ha
 The following data structures and types are used for binary trees and included in header file.
 
 ### Basic Binary Tree
-'''
+```
 /**
  * struct binary_tree_s - Binary tree node
  *
@@ -32,16 +32,16 @@ struct binary_tree_s
 };
 
 typedef struct binary_tree_s binary_tree_t;
-'''
+```
 ### Binary Search Tree
-'''
+```
 typedef struct binary_tree_s bst_t;
-'''
+```
 ### AVL Tree
-'''
+```
 typedef struct binary_tree_s avl_t;
-'''
+```
 ### Max Binary Heap
-'''
+```
 typedef struct binary_tree_s heap_t;
-'''
+```
