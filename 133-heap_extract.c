@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * heap_to_sorted_array - a function that extracts the
+ * heap_extract - a function that extracts the
  * root node of a Max Binary Heap
  *
  * @root: is a double pointer to the root node of heap
@@ -9,5 +9,5 @@
  */
 int heap_extract(heap_t **root)
 {
-	return (root);
+
 }
