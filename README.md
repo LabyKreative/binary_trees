@@ -9,7 +9,8 @@ A ***binary tree*** is a tree data structure composed of nodes, each of which ha
 2. The right subtree of a node contains only nodes with keys greater than the node’s key.
 3. The left and right subtree each must also be a binary search tree.
 
-## More Info
+## More Information
+
 ### Data structures
 The following data structures and types are used for binary trees and included in header file.
 
